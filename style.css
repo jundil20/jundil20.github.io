@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+}
+
+html {
+    font-size: 14px; /* Base Font Size */
+    line-height: 1.0; /* Base Line Height */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Default Font Family */
+    color: #1A7205;
+    background-color: #E4F5E8; /* Default Background Color */
+}
+a,a:visited{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+
+div.main-Layout{
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+nav.own{
+    width: 100%;
+    height: 80px;
+    background-color: #00C9A5;
+    color: #ffffff;
+    font-size: 21px;
+}
+nav.own > ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+div.footer-container{
+    width: 100%;
+    height: auto;
+    min-height: 30px;
+    background-color: #00C9A5;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+    color: white;
+    overflow: auto;
+}
+
+.headerTitle{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+/* Home Page */
+.homeprofile{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+div.container{
+    width: 60%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* About me */
+
+div.aboutMeContainer{
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    line-height: 1.2;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+/* Contact me */
+
+div.contactContainer{
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+#facebookLink{
+    color: #1A7205;
+}
+
+/* enrolled subjects */
+div.enrolledSubjectsContainer{
+    width: 60%;
+    height: 60%;
+    font-size: 20px;
+}
+
+table, th, td {
+    border: 1px solid green;
+    border-collapse: collapse;
+    width: auto;
+    margin: auto;
+    padding: 7px;
+  }
+
+  /* subject taken */
+  div.subjectsTakenContainer{
+    width: 100%;
+    height: 60%;
+    font-size: 20px;
+  }
+
+  nav.subTaken{
+    margin-top: 10px;
+  }
+
+/* my favorites */
+
+div.favoritesContainer{
+    width: 70%;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* my gallery */
+
+div.galleryContainer{
+    
+        width: 60%;
+        height: 80%;
+        margin: auto;
+        margin-bottom: 20px; 
+    
+}
